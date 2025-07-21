@@ -1,10 +1,11 @@
-import Image from 'next/image';
 import React from 'react'
+import HeroSection from './module';
 
 const Banner = () => {
     return (
         <div>
-            <div className='w-full h-[460px] flex'>
+            <HeroSection course />
+            {/* <div className='w-full h-[460px] flex'>
                 <div className='bg-[#ea5823] w-[40%] flex justify-center items-center'>
                     <div className='border-white opacity-75 border-2 h-[192px] w-[60%] flex justify-center items-center'>
                         <h1 className='text-[70px] text-white'>BIO</h1>
@@ -23,7 +24,7 @@ const Banner = () => {
                         }}
                     />
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 };
