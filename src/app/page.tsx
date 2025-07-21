@@ -1,103 +1,25 @@
-import Image from "next/image";
+import Banner from "@/components/banner";
+import Footer from "@/components/footer";
+import Header from "@/components/header";
 
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
+    <div>
+      <Header />
+      <Banner />
+      <main className="w-3xl mx-auto shadow my-12">
+        <p className="text-sm text-[#707070] p-5 leading-6">
+          Born on February 17, 1972 in Chattanooga, Tennessee and raised in Clarksville, Arkansas, Ralph Duren May was one of four kids raised by his single mother. At the age of seventeen he won a contest to open for his idol, Sam Kinison. He later moved to Houston to develop his comedy routine, at Kinison’s suggestion.
+          “All the comics I’ve ever admired, whether it be Kinison, Lenny Bruce, Buddy Hackett or Richard Pryor, all share a commonality: They’re a tour de force. When they speak, there’s no room for rebuttal. They’ve thought it all out. Even the pros and cons of their argument, they raise openly and debate in the midst of their conversation and it’s a beautiful thing to watch.”
+          Ralphie worked the stand-up circuit for years and in 2002 made his feature film debut in For da Love of Money.
+          In 2003 Ralphie was chosen to participate in the inaugural season of NBC’s Last Comic Standing where he won second place. After his debut on the program, audiences couldn’t get enough of the larger than life comedian. On the small screen, Ralphie worked as a writer and producer on ESPN's “Mohr Sports” starring Jay Mohr and performed stand-up on numerous late-night talk shows including four appearances on CBS's The Late Late Show with Craig Kilborn as well as eleven appearances on Jimmy Kimmel Live. He appeared on The Man Show and MTV’s Bash as well as guest-starred on NBC’s Whoopie. He was also one of a handful of comedians to have received a standing ovation on The Tonight Show with Jay Leno.
+          Ralphie released his first comedy album Just Correct in 2004, followed by four Comedy Central Specials titled Girth of a Nation (2006), Prime Cut (2007), Austintatious (2008) and Too Big to Ignore (2012), as well as two Netflix specials titled Imperfectly Yours (2013) and Unruly (2015). Ralphie’s memoir, This Might Get a Little Heavy, was published posthumously in December 2017.
+          Voted one of Variety’s “10 Comics to Watch,” Ralphie had a proven track record of selling out multiple shows in 1,500 to 3,000 seat venues with his no-nonsense point of view and the ability to connect with a diverse audience by pointing out society’s hypocrisies. Ralphie never shied away from touchy topics or ethnic jokes, nor did he bite his tongue when society suggested because he sincerely believed that as long as what he said was true, people needed to hear it. Lovable enough to get away with anything, Ralphie captured the hearts of millions on his sold-out tours, stand-up specials and comedy routines.
+          Ralphie married his wife Lahna Turner on July 3, 2005. The couple had two children: daughter April June May and son August James May. In 2013, May and Lahna started the Perfect 10 podcast together.
+          Ralphie passed away on October 6, 2017 in Las Vegas where he had been in residence at Harrah’s casino. He had just won the Casino Comedian of the Year award at the Global Gaming Expo. He was 45 years old.
+        </p>
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      <Footer />
     </div>
   );
 }
