@@ -10,7 +10,7 @@ const Header = () => {
     return (
         <div className="relative bg-[#0a0a0a]">
             <header className="text-white flex justify-between items-center max-w-7xl mx-auto h-[112px] px-4 md:px-8">
-                <h1 className="text-xl md:text-2xl font-bold">Uzobankz</h1>
+                <h1 className="text-xl md:text-2xl font-bold">Joe Summer</h1>
 
                 {/* Desktop Nav */}
                 <nav className="hidden md:flex">

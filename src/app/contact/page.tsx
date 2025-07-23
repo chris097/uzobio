@@ -50,7 +50,7 @@ const Contact = () => {
                             </svg>
                             <div>
                                 <p className='text-[#121212] text-[13px] font-montserrat leading-[20px] tracking-[2%] font-[600]'>EMAIL</p>
-                                <p className='text-[#444141] text-[13px] font-montserrat leading-[20px] tracking-[2%] font-[600]'>uzobankz@gmail.com</p>
+                                <p className='text-[#444141] text-[13px] font-montserrat leading-[20px] tracking-[2%] font-[600]'>joe_summer@gmail.com</p>
                             </div>
                         </div>
                     </div>

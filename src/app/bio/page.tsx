@@ -13,15 +13,15 @@ const Bio = () => {
     return (
         <>
             <Head>
-                <title>Uzobankz</title>
-                <meta name="description" content="Privacy Policy" />
+                <title>Joe Summer</title>
+                <meta name="description" content="bio" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="robots" content="noindex, nofollow" />
                 <link
                     href="https://api.fontshare.com/v2/css?f[]=clash-grotesk@200,700,400,600,300,500&display=swap"
                     rel="stylesheet"
                 ></link>
-                <link rel="icon" href="/logo-yabacon.png" />
+                {/* <link rel="icon" href="/logo-yabacon.png" /> */}
             </Head>
             <>
                 <main className="relative overflow-x-hidden">
