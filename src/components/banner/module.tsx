@@ -30,7 +30,7 @@ const HeroSection = ({
             <div className={`lg:max-w-7xl w-[90%] mx-auto lg:flex md:block block items-center pt-0 pb-14`}>
                 <div className='flex-1 font-pro-display text-extremeblack'>
                     {course ? <div>
-                        <h1 className='lg:text-[64px] md:text-[36px] text-[28px] font-[700] lg:leading-[76.38px] leading-[33.41px] md:leading-[42.99px]'>Uzobankz biography</h1>
+                        <h1 className='lg:text-[64px] md:text-[36px] text-[28px] font-[700] lg:leading-[76.38px] leading-[33.41px] md:leading-[42.99px]'>Joe Summer biography</h1>
                         <h1 className='lg:text-[63.57px] md:text-[32px] text-[28px] font-[700] lg:leading-[75.86px] md:leading-[38.19px] leading-[33.41px] text-[#F36B23] my-1'>
                         </h1>
                         <h1 className='lg:text-[64px] md:text-[32px] text-[28px] font-[700] lg:leading-[76.38px] md:leading-[38.19px] leading-[33.41px]'></h1>

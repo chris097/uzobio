@@ -13,7 +13,7 @@ export default function Home() {
         <div className='h-auto md:py-10 py-5 bg-black mt-20'>
           <div className='lg:max-w-7xl w-[90%] mx-auto md:py-10 py-5'>
             <div className='bg-[#1A1A1A] md:w-[243.35px] w-[175px] text-center md:py-3 py-2 rounded border border-white/25 text-white font-pro-display font-[500] md:text-[19.87px] text-[14px] leading-[23.71px]'>
-              About Uzobankz
+              About Joe Summer
             </div>
             <div className='flex gap-16 text-white md:mt-10 mt-4 lg:flex-row flex-col-reverse'>
               <Image loading="lazy" src={banner} className='bg-cover object-cover lg:mt-0 -mt-10 lg:w-[42%]' alt='' />
